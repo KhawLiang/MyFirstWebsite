@@ -1,0 +1,25 @@
+body.lightmode {
+  background-color: beige;
+  font-family: Noto Sans Mono, monospace;
+  text-align: center;
+  color: black;
+}
+
+body.darkmode {
+  background-color: #121212;
+  font-family: Noto Sans Mono, monospace;
+  text-align: center;
+  color: white;
+}
+
+#toggle-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#toggle-icon {
+    width: 30px;
+    height: 30px;
+}
