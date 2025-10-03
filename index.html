@@ -1,18 +1,49 @@
-<html>
-    <head>
-        <title>KhawLiang's Website</title>
-        <!--- Iframe -->
-        <iframe width="100%" height="100%" allow="microphone *" src="https://www.gptbots.ai/widget/eez5swzysx8wcvcncdiq3ee/chat.html"></iframe>
-        <!--- Bubble Widget -->
-        <script src="https://www.gptbots.ai/widget/weucvyvkpfxyukvlkkbwbyc/chat.js"></script>
-        <link rel="stylesheet" href="style.css"
-    </head>
-    <body class="lightmode">
-        <h1>Welcome to KhawLiang's Website</h1>
-        <p>This is my first website!</p>
-        <button id="toggle-btn">
-            <img id="toggle-icon" src="icons/sun.svg" alt="ToggleTheme" />
-        </button>
-        <script src="script.js"></script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KhawLiang's Website</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bubble Widget -->
+    <script src="https://www.gptbots.ai/widget/weucvyvkpfxyukvlkkbwbyc/chat.js" defer></script>
+</head>
+<body class="lightmode">
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to KhawLiang's Website 🎉</h1>
+        <p>This is my first website! 🚀</p>
+    </header>
+
+    <!-- Theme Toggle Button -->
+    <button id="toggle-btn" aria-label="Toggle Theme">
+        <img id="toggle-icon" src="icons/sun.svg" alt="Light/Dark Theme Icon" />
+    </button>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Iframe Chatbot -->
+        <section class="chat-section">
+            <iframe 
+                src="https://www.gptbots.ai/widget/eez5swzysx8wcvcncdiq3ee/chat.html" 
+                width="100%" 
+                height="600" 
+                allow="microphone *"
+                style="border:none; border-radius: 10px;">
+            </iframe>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 KhawLiang | Built with ❤️</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+</body>
 </html>
